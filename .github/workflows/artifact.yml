@@ -10,9 +10,9 @@ env:
     runs-on: ubuntu-latest
     steps:
     - name: checkout the code
-      use: actions/checkout@v2
+      uses: actions/checkout@v2
     - name: upload the artifactory
-      use: actions/upload-artifactory@v2
+      uses: actions/upload-artifactory@v2
       with:
        name: ${{env.ARTIFACTORY_NAME}}
        path: .
