@@ -1,0 +1,2 @@
+# artifcat
+create an artifactory
